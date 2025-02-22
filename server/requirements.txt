@@ -1,0 +1,6 @@
+Flask
+openai
+pandas
+sentence-transformers
+Flask-Cors==5.0.0
+pinecone
