@@ -67,7 +67,7 @@ def rag_pipeline(query, top_n=2):
 # -----------------------------
 # Flask Web App Setup
 # -----------------------------
-app = Flask(__name__, template_folder="server/templates")
+app = Flask(__name__, template_folder="templates")
 CORS(app)
 
 @app.route('/')
